@@ -17,3 +17,10 @@ docs/
 
 # Claude Code local state
 .claude/
+
+# Installed agent skills (reproducible via `npx skills add ...`)
+.agents/
+
+# Private Chainlink-skill evaluation deliverable (shared directly with Chainlink, not public)
+CHAINLINK_CCIP_SKILL_EVALUATION.md
+CHAINLINK_CCIP_SKILL_EVALUATION.pdf

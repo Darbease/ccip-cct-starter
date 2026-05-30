@@ -27,8 +27,8 @@ contract UpdateRateLimiters is Script {
 
         uint64 remoteChainSelector = remoteNetworkConfig.chainSelector;
 
-        uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
-        vm.startBroadcast(deployerPrivateKey);
+        // Use the cast keystore (--account/--sender), consistent with the other scripts in this repo.
+        vm.startBroadcast();
 
         // Instantiate the TokenPool contract
         TokenPool poolContract = TokenPool(poolAddress);

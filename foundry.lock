@@ -2,6 +2,12 @@
   "lib/ccip": {
     "rev": "c279cbb4ab57436b9c59c9321492e25f0aa30e80"
   },
+  "lib/chainlink-local": {
+    "tag": {
+      "name": "v0.2.9",
+      "rev": "f8c0efe8685660dac07e08f4558f1b578ae991aa"
+    }
+  },
   "lib/forge-std": {
     "rev": "b93cf4bc34ff214c099dc970b153f85ade8c9f66"
   }
